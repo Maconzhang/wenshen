@@ -16,15 +16,6 @@
   color: red;
 }
 
-.iconfont2 {
-  font-family:"iconfont" !important;
-  font-size:16px;
-  font-style:normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: gray;
-}
-
 .icon-shixiang:before { content: "\e608"; }
 
 .icon-arrow-right:before { content: "\e646"; }
@@ -43,3 +34,13 @@
 
 .icon-youjian:before { content: "\e68d"; }
 
+
+
+.iconfont2 {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: gray;
+}

@@ -4,9 +4,12 @@
   </view>
   <view class='pic-picker'>
     <scroll-view  scroll-x="true" style=" white-space: nowrap; display: flex" >
-      <view class="inner active" wx:for="{{ picArr.images }}" wx:key="*this">
-            <view class="team-item">
-              <image src="{{ item }}" mode="aspectFill"/>
+      <view class="inner " wx:for="{{ picArr.images }}" wx:key="*this">
+            <view class='ico'>
+              <icon class="iconfont icon-quanxianfuzhi"></icon>
+            </view>
+            <view class="team-item" >
+              <image class='active' src="{{ item }}" mode="aspectFill"/>
           </view>  
       </view>
     </scroll-view>
