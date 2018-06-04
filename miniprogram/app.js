@@ -145,11 +145,10 @@ App({
       },
       orderPageInfo: {
         url: 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2517753454.jpg',
-        arr:[
-          { des: '用户名', icon:'' },
-          { des: '联系方式' },
-          { des: '预约时间' }
-        ]
+        attrs:{
+          style: ['传统', '时尚', '非主流'],
+          where: ['鄞州', '海曙', '江北']
+        }
       }
     }
   }

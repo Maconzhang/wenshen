@@ -16,9 +16,7 @@ Page({
         { url: 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2517753454.jpg' }
       ]
     },
-    IndexData: {
-      
-    }
+    IndexData: {}
   },
   getMore: function () {
     console.log('hello world',event)

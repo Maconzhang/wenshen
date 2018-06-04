@@ -8,20 +8,25 @@ Page({
   },
   data: {
     orderData: {},
+    date: null,
+    index:0,
     formData: {
       username: '',
       phone: '',
-      time: '',
+      date: '',
       style: '',
-      where:''
+      where: ''
     },
-    date: null
+    orderArr:{}
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
+    this.setData({
+      orderArr: app.data.allData.orderPageInfo.attrs
+    })
   },
 
   /**
@@ -68,8 +73,41 @@ Page({
   },
   bindDateChange (e) {
     console.log('bindDateChange')
+    var form_Date = "formData.date"
     this.setData({
-      date: e.detail.value
+      [form_Date]: e.detail.value
     })
   },
+  bindPickerStyle (e) {
+    console.log(e)
+    var form_style = "formData.style"
+    var form_where = "formData.where"
+    if (e.target.dataset.idx == "style") {
+      this.setData({
+        [form_style]: this.data.orderArr.style[e.detail.value]
+      })
+    } else {
+      this.setData({
+        [form_where]: this.data.orderArr.where[e.detail.value]
+      })
+    }
+    var that = this
+    setTimeout(function () {
+      console.log(that.data.formData)
+    },2000)
+  },
+  bindKeyInput (e) {
+    var form_username = "formData.username"
+    var form_phone = "formData.phone"
+    console.log(e)
+    if (e.target.dataset.name == "username") {
+      this.setData({
+        [form_username]: e.detail.value
+      })
+    } else {
+      this.setData({
+        [form_phone]: e.detail.value
+      })
+    }
+  }
 })
