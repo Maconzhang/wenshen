@@ -1,0 +1,40 @@
+.order{
+  width: 500rpx;
+  height: 750rpx;
+  margin: 250rpx auto;
+  border: 1px solid black;
+  background: black;
+  color: white;
+}
+.order .order-title{
+  height: 100rpx;
+  display: flex;
+  width: 100%;
+  margin: 100rpx 0 0 0;
+  font-size: 34rpx;
+  font-weight: 700;
+  justify-content: center;
+  align-content: center;
+}
+
+.order .order-content{
+  width: 100%;
+  color: gray;
+}
+
+.order .order-content .section{
+  display: inline-block;
+  width: 350rpx;
+  margin: 0 50rpx;
+  padding: 15rpx;
+  border-bottom: 3rpx solid white;
+  position: relative;
+}
+
+.order .order-content .section input{
+  display: inline-block;
+  position: absolute;
+  top: 30rpx;
+  left: 60rpx;
+}
+

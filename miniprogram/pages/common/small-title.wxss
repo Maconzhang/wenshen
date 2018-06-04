@@ -1,0 +1,15 @@
+.main{
+  display: flex; 
+  width: 100%;
+  border: 1px solid red;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.main .content{
+  display: flex;
+  width: 10%;
+  height: 50rpx;
+ 
+}

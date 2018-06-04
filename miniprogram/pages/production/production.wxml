@@ -1,0 +1,22 @@
+<view class='container'>
+  <view class='page-title'>
+    <text style='color:white;font-size:28rpx;'>纹身作品</text>
+    <text style='color:gray;font-size:24rpx;'>TATAOO</text>
+  </view>
+  <view class='pro-list' wx:for="{{ proData.contents }}" wx:key="images">
+    <view class='item-img'>
+        <image src="{{ item.images[0] }}"></image>
+    </view>
+    <view class='item-des'>
+        <view class='word'>
+            <text>{{ item.name }}</text>
+            <view class='word-des'>
+              {{ item.des }}
+            </view>
+        </view>
+        <view class='ico'>
+          <icon class="iconfont2 icon-arrow-right"></icon>
+        </view>
+    </view>
+  </view>
+</view>

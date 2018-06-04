@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "list": "plugin://myPlugin/list",
+    "carousel": "plugin://myPlugin/carousel",
+    "picker2": "plugin://myPlugin/picker2"
+  }
+}
+
+

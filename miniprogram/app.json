@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/production/production",
+    "pages/order/order",
+    "pages/school/school",
+    "pages/about/about"
+  ],
+  "plugins": {
+    "myPlugin": {
+      "version": "dev",
+      "provider": "wxc7abd2ef15c444f0"
+    }
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#40586d",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "电影 « 豆瓣",
+    "backgroundColor": "#f8f9fb",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#f8f9fb",
+    "list": [
+      {
+        "text": "主页",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/board.png",
+        "selectedIconPath": "images/board-actived.png"
+      },
+      {
+        "text": "作品",
+        "pagePath": "pages/production/production",
+        "iconPath": "images/board.png",
+        "selectedIconPath": "images/board-actived.png"
+      },
+      {
+        "text": "预定",
+        "pagePath": "pages/order/order",
+        "iconPath": "images/board.png",
+        "selectedIconPath": "images/board-actived.png"
+      },
+      {
+        "text": "学院",
+        "pagePath": "pages/school/school",
+        "iconPath": "images/board.png",
+        "selectedIconPath": "images/board-actived.png"
+      },
+      {
+        "text": "我们",
+        "pagePath": "pages/about/about",
+        "iconPath": "images/board.png",
+        "selectedIconPath": "images/board-actived.png"
+      }
+    ]
+  }
+}

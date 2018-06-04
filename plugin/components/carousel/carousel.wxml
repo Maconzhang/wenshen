@@ -1,0 +1,7 @@
+<view class='carousel'>
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000" style="height: {{attrs.height}}rpx" indicator-color="rgba(255,0,0,0.6)" indicator-active-color="red">
+      <swiper-item wx:for="{{ attrs.images }}" wx:key="url">
+         <image src="{{ item.url }}" mode="aspectFill"/> 
+      </swiper-item>
+    </swiper>
+</view>

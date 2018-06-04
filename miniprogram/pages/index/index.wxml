@@ -1,0 +1,64 @@
+<import src="../common/small-title"/>
+<view class="container">
+    <carousel attrs="{{ list }}"/> 
+    <view class="special">
+        <template is="small-title" data="{{...IndexData.specialArr}}"/>
+        <navigator url="" hover-class="none" wx:for="{{ IndexData.specialArr.contents }}" wx:key="url" class="title">
+          <view class='item'>
+             <image src="../../images/board.png" mode="aspectFill"/> 
+             <view>{{ item.des }}</view>
+             <view style="color:gray;">{{ item.eng }}</view> 
+          </view>
+        </navigator>
+    </view> 
+    <view class="company" style="background-image: url({{ IndexData.company.url }}); background-size:100%;">
+        <template is="small-title" data="{{...IndexData.company }}"/>
+        <view class="word">
+          <text>{{ IndexData.company.desCh }}</text>
+        </view>
+    </view>
+    <view class="team">
+        <template is="small-title" data="{{...IndexData.teamMember }}"/>
+        <scroll-view  scroll-x="true" style=" white-space: nowrap; display: flex" >
+          <view class="inner" wx:for="{{ IndexData.teamMember.member }}" wx:key="des">
+                <view class="team-item">
+                  <image src="{{ item.url }}" mode="aspectFill"/>
+                  <text class="des">{{ item.des }} <text class="name"> {{ item.name }}</text> </text>  
+              </view>  
+          </view>
+        </scroll-view> 
+    </view>
+    <view class="company" style="background-image: url({{ IndexData.tattoo.url }}); background-size:100%;">
+        <template is="small-title" data="{{...IndexData.tattoo }}"/>
+        <view class="word">
+          <text>{{ IndexData.tattoo.desCh }}</text>
+        </view>
+    </view>
+    <view class="intro">
+      <template is="small-title" data="{{...IndexData.introduction }}"/>
+      <view wx:for="{{ IndexData.introduction.contents }}" wx:key="name" 
+      style="width: {{ index == 0 ? '100%' : '33.33%' }}" 
+      class="item {{index == 0 ? 'item2':'' }}">
+        <image src="{{ item.images[0] }}"  style="height: {{ index == 0 ? '77%' : '70%' }}" mode="scaleToFill"></image>
+        <view class="word-part">
+          <view style="font-weight:800">{{ item.name }}</view>
+          <view style="display:block;height:60rpx;font-size:22rpx;overflow:hidden; text-overflow:ellipsis;display:-webkit-box; -webkit-box-orient:vertical;-webkit-line-clamp:2; "> {{ item.des  }}</view>
+          <view class="btn" bindtap='getMore' data-hi='wchat' id="tapTest">了解更多</view>
+        </view>
+      </view>
+    </view>
+    <view class='jour' style="background-image: url({{ IndexData.jouranlism.url }}); background-size:100%;">
+      <template is="small-title" data="{{...IndexData.introduction }}"/>
+      <view wx:for="{{ IndexData.jouranlism.contents }}" wx:key="url" class="jour-item">
+        <view wx:if="{{ index <= 4 }}">
+          <label>
+            <icon class="iconfont icon-shixiang"></icon>
+            <text>{{ item.des }}</text>
+          </label>
+        </view>
+         <view wx:if="{{ index == 5 }}" class='getMore'>
+          <view>查看更多</view>
+        </view> 
+      </view>
+    </view> 
+</view>

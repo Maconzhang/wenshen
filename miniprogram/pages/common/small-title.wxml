@@ -1,0 +1,5 @@
+<template name="small-title">
+  <view class="main">
+    <view class="content">{{ des }}</view>
+  </view>
+</template>

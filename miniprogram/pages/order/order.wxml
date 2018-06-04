@@ -1,0 +1,30 @@
+
+<view class='container' style='background-image:url({{ orderData.url }});background-size: 100% 100%'>
+  <view class='order'>
+    <view class='order-title'>
+      <text>立即预定</text>
+    </view>
+    <view class="order-content">
+      <form bindsubmit="formSubmit" bindreset="formReset">
+         <view class="section">
+          <icon class="iconfont2 icon-arrow-right"></icon>
+          <input name="input" placeholder="用户名" />
+        </view>
+         <view class="section">
+          <icon class="iconfont2 icon-arrow-right"></icon>
+          <input name="input" placeholder="联系方式" type='number' />
+        </view>
+         <view class="section">
+          <icon class="iconfont2 icon-arrow-right"></icon>
+           <!-- <input name="input" placeholder="预约时间" />  -->
+          <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange"
+          style='margin-top:-40rpx;margin-left:50rpx;height:40rpx;'>
+            <view class="picker">
+             {{ date == null ? '预定时间' : date  }}
+            </view>
+          </picker>
+        </view> 
+      </form>
+    </view>
+  </view>
+</view>
