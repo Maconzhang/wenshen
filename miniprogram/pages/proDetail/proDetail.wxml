@@ -1,0 +1,6 @@
+<view class="container" style='background:black'>
+    <view class='proDetail-head'>
+      {{ proData.images }}
+    </view>
+    <picWatcher picArr="{{ proData.images }}"/>
+</view>

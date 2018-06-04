@@ -18,7 +18,11 @@ Page({
     },
     IndexData: {}
   },
-  getMore: function () {
-    console.log('hello world',event)
+  getMore: function (e) {
+    console.log('hello world', e.target.dataset.info)
+    var para = JSON.stringify(e.target.dataset.info)
+    wx.navigateTo({
+      url: `../proDetail/proDetail?info=${para}`
+    })
   }
 })

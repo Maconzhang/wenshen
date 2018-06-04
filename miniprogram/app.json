@@ -4,7 +4,8 @@
     "pages/production/production",
     "pages/order/order",
     "pages/school/school",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/proDetail/proDetail"
   ],
   "plugins": {
     "myPlugin": {

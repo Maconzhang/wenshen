@@ -75,7 +75,7 @@ App({
         contents: [
           {
             name: '传统',
-            des: '新传统在其画风改变和创新极大，把传统刺青的精髓发挥的更为突出新传统在其画风改变和创新极大，把传统刺青的精髓发挥的更为突出新传统在其画风改变和创新极大，把传统刺青的精髓发挥的更为突出新传统在其画风改变和创新极大，把传统刺青的精髓发挥的更为突出新传统在其画风改变和创新极大，把传统刺青的精髓发挥的更为突出新传统在其画风改变和创新极大，把传统刺青的精髓发挥的更为突出11',
+            des: '新传统在其画风改变和创新极大，把传统刺青的精髓发挥的更为突出新传统在其画风改变和创新极大，把传统刺青的精髓发挥的更为突出新传统在其画风改变和创新极大，把传统刺  ',
             images: [
               'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522814546.jpg',
               'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522417650.jpg'
@@ -125,6 +125,10 @@ App({
             name: '传统',
             des: '新传统在其画风改变和创新极大，把传统刺青的精髓发挥的更为突出',
             images: [
+              'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522814546.jpg',
+              'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522417650.jpg',
+              'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522814546.jpg',
+              'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522417650.jpg',
               'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522814546.jpg',
               'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522417650.jpg'
             ]

@@ -1,0 +1,14 @@
+<view class='picWacher'>
+  <view class='pic'>
+    <image src="{{ picArr.images[index] }} "  mode="aspectFill"></image>
+  </view>
+  <view class='pic-picker'>
+    <scroll-view  scroll-x="true" style=" white-space: nowrap; display: flex" >
+      <view class="inner active" wx:for="{{ picArr.images }}" wx:key="*this">
+            <view class="team-item">
+              <image src="{{ item }}" mode="aspectFill"/>
+          </view>  
+      </view>
+    </scroll-view>
+  </view>
+</view>

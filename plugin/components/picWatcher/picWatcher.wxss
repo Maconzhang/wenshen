@@ -1,0 +1,51 @@
+.picWacher{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10rpx;
+}
+
+.picWacher .pic{
+  height: 600rpx;
+}
+.picWacher .pic image{
+  width: 100%;
+  height: 100%;
+}
+
+.picWacher .pic-picker{
+  height: 220rpx;
+  margin-top: 20rpx;
+}
+
+.picWacher .pic-picker .inner{
+  display: inline-block;
+  /* flex-direction: row; */
+  height: 160rpx;
+  width: 150rpx;
+  margin: 10rpx;
+} 
+
+.picWacher .pic-picker .inner .team-item {
+  display: flex;
+  flex-direction: column;
+  width: 150rpx;
+  height: 260rpx;
+} 
+.picWacher .pic-picker .inner .team-item image{
+  width: 150rpx;
+  height: 160rpx;
+  /* overflow: hidden; */
+}
+.picWacher .pic-picker .inner .team-item .name{
+  color: white;
+  font-size: 26rpx;
+  text-align: center;
+}
+.active{
+  border: 1px solid red;
+  content: "&#xe62c";
+}
+
+/* .active :before{
+  content: "&#xe62c";
+} */ 

@@ -1,0 +1,14 @@
+.proDetail-head{
+  width: 100%;
+  height: 300rpx;
+  border: 1px solid red;
+  padding:50rpx 100rpx;
+  word-wrap: word-break;
+  box-sizing: border-box;
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  display:-webkit-box; 
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:5; 
+}
+

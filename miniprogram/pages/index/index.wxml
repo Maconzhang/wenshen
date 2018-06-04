@@ -43,7 +43,7 @@
         <view class="word-part">
           <view style="font-weight:800">{{ item.name }}</view>
           <view style="display:block;height:60rpx;font-size:22rpx;overflow:hidden; text-overflow:ellipsis;display:-webkit-box; -webkit-box-orient:vertical;-webkit-line-clamp:2; "> {{ item.des  }}</view>
-          <view class="btn" bindtap='getMore' data-hi='wchat' id="tapTest">了解更多</view>
+          <view class="btn" bindtap='getMore'  data-info='{{ item }}' id="tapTest">了解更多</view>
         </view>
       </view>
     </view>
