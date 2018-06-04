@@ -149,6 +149,35 @@ App({
           style: ['传统', '时尚', '非主流'],
           where: ['鄞州', '海曙', '江北']
         }
+      },
+      schoolData: [
+        { 
+          url:'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2517753454.jpg',
+          title: '纹身培训',
+          des: '纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训'
+        },
+        {
+          url: 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2517753454.jpg',
+          title: '纹身培训',
+          des: '纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训'
+        },
+        {
+          url: 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2517753454.jpg',
+          title: '纹身培训',
+          des: '纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训'
+        },
+        { 
+          url: 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2517753454.jpg',
+          title: '纹身培训',
+          des: '纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训纹身培训'
+        }
+      ],
+      aboutInfo: {
+        des: 'HelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorld',
+        address: '浙江万里学院',
+        phone: '178589635486',
+        email: '94462634684@qq.com',
+        url:'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2517753454.jpg'
       }
     }
   }

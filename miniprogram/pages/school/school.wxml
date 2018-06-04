@@ -1,2 +1,9 @@
-<!--pages/school/school.wxml-->
-<text>pages/school/school.wxml</text>
+<view class="container">
+  <view class="school" wx:for="{{ schoolData }}" wx:key="*this" style='background-image:url({{ item.url }});  background-size:100%;'>
+     <view style='color:white;font-size:32rpx'>{{ item.title }}</view>
+     <view style='color:gray;font-size:22rpx'>{{ item.des }}</view>
+     <view class="right-arrow">
+       <icon class="iconfont2 icon-arrow-right"></icon>
+     </view>
+  </view>
+</view>

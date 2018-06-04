@@ -1,18 +1,21 @@
 // pages/school/school.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    schoolData: {}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    wx.showLoading({ title: '拼命加载中...' })
+    this.setData({ schoolData: app.data.allData.schoolData })
+    wx.hideLoading()
   },
 
   /**

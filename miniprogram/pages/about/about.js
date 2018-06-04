@@ -1,18 +1,29 @@
 // pages/school/school.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    list: {
+      height: 500,
+      images: [
+        { url: 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522814546.jpg' },
+        { url: 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522417650.jpg' },
+        { url: 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2517753454.jpg' }
+      ]
+    },
+    aboutInfo: {}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.showLoading({ title: '拼命加载中...' })
+    this.setData({ aboutInfo: app.data.allData.aboutInfo })
+    wx.hideLoading()
   },
 
   /**

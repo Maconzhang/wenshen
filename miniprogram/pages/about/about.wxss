@@ -1,0 +1,31 @@
+.about{
+  width: 100%;
+  box-sizing: border-box; 
+  color: white;
+}
+
+.about .about-content{
+  width: 100%;
+  height: 450rpx;
+  background: black;
+  box-sizing: border-box; 
+  padding: 50rpx;
+  word-wrap: break-word;
+  font-size: 26rpx;
+}
+
+.about .about-bottom{
+  height: 450rpx;
+  width: 100%;
+  box-sizing: border-box; 
+  padding: 50rpx 40rpx;
+  background: rgba(0,0,0,0.5);
+}
+
+.about .about-bottom view{ 
+  margin: 20rpx 0;
+}
+
+.about .about-bottom view text{   
+  margin-left: 10rpx;
+}

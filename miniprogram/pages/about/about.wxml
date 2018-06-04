@@ -1,1 +1,22 @@
-<view>about</view>
+<view class="container">
+  <view class='about'>
+    <carousel attrs="{{ list }}"/> 
+    <view class='about-content'>
+      <text>  {{ aboutInfo.des  }} </text>
+    </view>
+    <view class='about-bottom' style='background-image:url({{ aboutInfo.url }});  background-size:100%;'>
+      <view>
+        <icon class="iconfont icon-dingwei"></icon>
+        <text>{{ aboutInfo.address }}</text>
+      </view>
+      <view>
+        <icon class="iconfont icon-dianhua"></icon>
+        <text>{{ aboutInfo.phone }}</text>
+      </view>
+      <view>
+        <icon class="iconfont icon-youjian"></icon>
+        <text>{{ aboutInfo.email }}</text>
+      </view>
+    </view>
+  </view>
+</view>
