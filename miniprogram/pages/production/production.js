@@ -65,5 +65,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  clickOne  (e) {
+    var para = JSON.stringify(e.currentTarget.dataset.arr)
+    wx.navigateTo({
+      url: `../proDetail/proDetail?info=${para}`
+    })
   }
 })

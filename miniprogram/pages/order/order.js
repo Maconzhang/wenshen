@@ -40,7 +40,7 @@ Page({
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-    console.log(this.proData)
+    // console.log(this.proData)
 
   },
 
@@ -72,14 +72,12 @@ Page({
 
   },
   bindDateChange (e) {
-    console.log('bindDateChange')
     var form_Date = "formData.date"
     this.setData({
       [form_Date]: e.detail.value
     })
   },
   bindPickerStyle (e) {
-    console.log(e)
     var form_style = "formData.style"
     var form_where = "formData.where"
     if (e.target.dataset.idx == "style") {
@@ -99,7 +97,6 @@ Page({
   bindKeyInput (e) {
     var form_username = "formData.username"
     var form_phone = "formData.phone"
-    console.log(e)
     if (e.target.dataset.name == "username") {
       this.setData({
         [form_username]: e.detail.value

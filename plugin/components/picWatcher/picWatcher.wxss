@@ -13,8 +13,7 @@
 }
 
 .picWacher .pic-picker{
-  height: 220rpx;
-  margin-top: 40rpx;
+  height: 250rpx;
 }
 
 .picWacher .pic-picker .inner{
@@ -47,7 +46,7 @@
   z-index: 999;
 }
 .active{
-  border: 1px solid red;
+  border: 2px solid red;
 }
 
  /* .active:before{

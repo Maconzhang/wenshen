@@ -1,26 +1,31 @@
 Component({
   properties: {
     // 这里定义了innerText属性，属性值可以在组件使用时指定
-    // picArr: {
-    //   type: Object,
-    //   value: {},
-    // }
+    picArr: {
+      type: Object,
+      value: {},
+    }
   },
   data: {
-    picArr: {
-      name: '传统',
-      des: '新传统在其画风改变和创新极大，把传统刺青的精髓发挥的更为突出',
-      images: [
-        'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522814546.jpg',
-        'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522417650.jpg',
-        'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522814546.jpg',
-        'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522417650.jpg',
-        'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522814546.jpg',
-        'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522417650.jpg'
-      ]
-    },
+    // picArr: {
+    //   name: '传统',
+    //   des: '新传统在其画风改变和创新极大，把传统刺青的精髓发挥的更为突出',
+    //   images: [
+    //     'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522814546.jpg',
+    //     'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522417650.jpg',
+    //     'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522814546.jpg',
+    //     'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522417650.jpg',
+    //     'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522814546.jpg',
+    //     'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522417650.jpg'
+    //   ]
+    // },
     index:0
   },
+  methods: {
+    clickOne: function (e) {
+      this.setData({ index: e.currentTarget.dataset.idx })
+    }
+  }
   // bindChange: function (e) {
   //   const val = e.detail.value
   //   this.setData({

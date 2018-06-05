@@ -1,6 +1,6 @@
-<view class="container" style='background:black'>
+<view class="container" style='background: rgb(35,35,35)'>
     <view class='proDetail-head'>
-      {{ proData.images }}
+      {{ proData.des }}
     </view>
-    <picWatcher picArr="{{ proData.images }}"/>
+    <picWatcher picArr="{{ proData }}"/>
 </view>

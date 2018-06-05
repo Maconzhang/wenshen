@@ -13,7 +13,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options)
+    console.log(1111,options)
     this.setData({
       proData: JSON.parse(options.info)
     }) 

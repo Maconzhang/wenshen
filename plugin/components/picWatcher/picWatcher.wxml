@@ -4,12 +4,12 @@
   </view>
   <view class='pic-picker'>
     <scroll-view  scroll-x="true" style=" white-space: nowrap; display: flex" >
-      <view class="inner " wx:for="{{ picArr.images }}" wx:key="*this">
-            <view class='ico'>
+      <view class="inner " wx:for="{{ picArr.images }}" wx:key="*this" wx:for-index="idx">
+            <view class='ico' hidden="{{ idx == index ? false : true }}">
               <icon class="iconfont icon-quanxianfuzhi"></icon>
             </view>
-            <view class="team-item" >
-              <image class='active' src="{{ item }}" mode="aspectFill"/>
+            <view class="team-item" bindtap='clickOne' data-idx='{{ idx }}' >
+              <image class="{{ idx == index ? 'active' : '' }}"  src="{{ item }}" mode="aspectFill"/>
           </view>  
       </view>
     </scroll-view>

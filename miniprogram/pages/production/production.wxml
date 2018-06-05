@@ -3,7 +3,7 @@
     <text style='color:white;font-size:28rpx;'>纹身作品</text>
     <text style='color:gray;font-size:24rpx;'>TATAOO</text>
   </view>
-  <view class='pro-list' wx:for="{{ proData.contents }}" wx:key="images">
+  <view class='pro-list' wx:for="{{ proData.contents }}" wx:key="images" bindtap='clickOne' data-arr='{{ item }}'>
     <view class='item-img'>
         <image src="{{ item.images[0] }}"></image>
     </view>
