@@ -2,7 +2,7 @@
 <view class="container">
     <carousel attrs="{{ list }}"/> 
     <view class="special">
-        <template is="small-title" data="{{...IndexData.specialArr}}"/>
+        <template is="small-title" data="{{...IndexData.specialArr}}" />
         <navigator url="" hover-class="none" wx:for="{{ IndexData.specialArr.contents }}" wx:key="url" class="title">
           <view class='item'>
              <image src="../../images/board.png" mode="aspectFill"/> 
