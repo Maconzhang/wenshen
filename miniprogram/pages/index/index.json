@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "list": "plugin://myPlugin/list",
-    "carousel": "plugin://myPlugin/carousel"
+    "list": "../../components/list/list",
+    "carousel": "../../components/carousel/carousel"
   }
 }

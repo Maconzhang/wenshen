@@ -1,8 +1,8 @@
 {
   "usingComponents": {
-    "list": "plugin://myPlugin/list",
-    "carousel": "plugin://myPlugin/carousel",
-    "picker2": "plugin://myPlugin/picker2"
+    "list": "../../components/list/list",
+    "carousel": "../../components/carousel/carousel",
+    "picker2": "../../components/picker/picker"
   }
 }
 

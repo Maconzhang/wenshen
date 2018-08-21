@@ -12,8 +12,8 @@ Page({
       height: 500,
       images: [
         { url: 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522814546.jpg' },
-        { url: 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522417650.jpg' },
-        { url: 'https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_5859e57.png' }
+        { url: 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522814546.jpg' },
+        { url: 'https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522814546.jpg' }
       ]
     },
     IndexData: {}

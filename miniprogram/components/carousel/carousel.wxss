@@ -1,0 +1,12 @@
+.carousel{
+  width: 100%;
+}
+
+.carousel swiper {
+  height: 480rpx;
+}
+
+.carousel swiper image, .carousel swiper video {
+  height: 100%;
+  width: 100%;
+}

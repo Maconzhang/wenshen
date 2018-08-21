@@ -1,7 +1,7 @@
 {
   "usingComponents": {
-    "list": "plugin://myPlugin/list",
-    "carousel": "plugin://myPlugin/carousel",
-    "picWatcher": "plugin://myPlugin/picWatcher"
+    "list": "../../components/list/list",
+    "carousel": "../../components/carousel/carousel",
+    "picWatcher": "../../components/picWatcher/picWatcher"
   }
 }
