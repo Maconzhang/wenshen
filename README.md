@@ -15,7 +15,6 @@
   - app.json
   - app.wxss
   - icon.wxss                   ----引入额外的icon的全局样式
-- plugin                        ----插件列表
 - project.config.json           ----小程序配置文件
 
 ```

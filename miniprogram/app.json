@@ -7,12 +7,7 @@
     "pages/about/about",
     "pages/proDetail/proDetail"
   ],
-  "plugins": {
-    "myPlugin": {
-      "version": "dev",
-      "provider": "wxc7abd2ef15c444f0"
-    }
-  },
+  
   "window": {
     "navigationBarBackgroundColor": "#40586d",
     "navigationBarTextStyle": "white",

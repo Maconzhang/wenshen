@@ -1,9 +1,7 @@
 // 获取全局应用程序实例对象
 const app = getApp()
-var plugin = requirePlugin("myPlugin")
 Page({
   onLoad: function () {
-    plugin.getData()
     this.setData({ orderData: app.data.allData.orderPageInfo })
   },
   data: {

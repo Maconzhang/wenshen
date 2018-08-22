@@ -1,9 +1,0 @@
-{
-  "publicComponents": {
-    "list": "components/list/list",
-    "carousel": "components/carousel/carousel",
-    "picker2": "components/picker/picker",
-    "picWatcher": "components/picWatcher/picWatcher"
-  },
-  "main": "index.js"
-}

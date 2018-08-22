@@ -1,8 +1,6 @@
-var plugin = requirePlugin("myPlugin")
 const app = getApp()
 Page({
   onLoad: function() {
-    plugin.getData()
     wx.showLoading({ title: '拼命加载中...' })
     this.setData({ IndexData: app.data.allData })
     wx.hideLoading()

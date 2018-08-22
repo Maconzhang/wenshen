@@ -1,6 +1,6 @@
 {
 	"miniprogramRoot": "./miniprogram",
-	"pluginRoot": "./plugin",
+
 	"compileType": "miniprogram",
 	"setting": {
 		"newFeature": true
